@@ -1,0 +1,20 @@
+id: 562
+name: alex-juzto
+type: bedrock
+environments:
+  production:
+    domain: test.nomasfotomultas.com
+    build:
+      - 'COMPOSER_MIRROR_PATH_REPOS=1 composer install'
+    database:
+      server: sql-ymirtest1
+      name: bedrock_production
+      user: bedrock
+  staging:
+    domain: staging-test.nomasfotomultas.com
+    build:
+      - 'COMPOSER_MIRROR_PATH_REPOS=1 composer install'
+    database:
+      server: sql-ymirtest1
+      name: bedrock_staging
+      user: bedrock
