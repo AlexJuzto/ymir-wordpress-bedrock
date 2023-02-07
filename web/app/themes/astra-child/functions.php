@@ -33,3 +33,11 @@ if( ! defined( 'CONCATENATE_SCRIPTS' ) ) {
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
+
+if( ! function_exists('jzt_test_text') ) {
+    function jzt_test_text() {
+        echo 'Alex this is awesome!!';
+    }
+}
+
+add_action('wp_footer', 'jzt_test_text');
