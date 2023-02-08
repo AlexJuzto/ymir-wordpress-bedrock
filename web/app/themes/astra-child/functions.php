@@ -50,7 +50,7 @@ if( ! function_exists('jzt_test_text') ) {
  */
 if( ! function_exists('jzt_test_cabecera') ) {
     function jzt_test_cabecera() {
-        echo '<h1>This is a head!</h1>';
+        echo '<h1>This is a head Cabecera!</h1>';
     }
     add_action('wp_footer', 'jzt_test_cabecera');
 }
