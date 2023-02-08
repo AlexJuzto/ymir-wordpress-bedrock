@@ -36,7 +36,7 @@ add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
 
 if( ! function_exists('jzt_test_text') ) {
     function jzt_test_text() {
-        echo 'Alex this is awesome!!';
+        echo '<h1>Alex this is awesome!!</h1>';
     }
 }
 
