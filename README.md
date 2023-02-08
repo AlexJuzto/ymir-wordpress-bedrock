@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <a href="https://roots.io/bedrock/">
     <img alt="Bedrock" src="https://cdn.roots.io/app/uploads/logo-bedrock.svg" height="100">
@@ -103,3 +104,7 @@ Keep track of development and community news.
 - Follow [@rootswp on Twitter](https://twitter.com/rootswp)
 - Read and subscribe to the [Roots Blog](https://roots.io/blog/)
 - Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
+=======
+# ymir-wordpress-bedrock
+This a tes to create a repo, with action deploy
+>>>>>>> 2478eb2f79aa2503167bbcf2268468e0e5de8210
