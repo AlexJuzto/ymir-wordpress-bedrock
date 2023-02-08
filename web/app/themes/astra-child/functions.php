@@ -42,6 +42,5 @@ if( ! function_exists('jzt_test_text') ) {
     function jzt_test_text() {
         echo '<h1>Alex this is awesome!!</h1>';
     }
+    add_action('wp_footer', 'jzt_test_text');
 }
-
-add_action('wp_footer', 'jzt_test_text');
