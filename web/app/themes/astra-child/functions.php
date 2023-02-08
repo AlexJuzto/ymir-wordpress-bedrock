@@ -44,3 +44,13 @@ if( ! function_exists('jzt_test_text') ) {
     }
     add_action('wp_footer', 'jzt_test_text');
 }
+
+/**
+ * Añadiendo comentarios al hook para saber que hacer de manera rápida
+ */
+if( ! function_exists('jzt_test_cabecera') ) {
+    function jzt_test_cabecera() {
+        echo '<h1>Alex this is awesome!!</h1>';
+    }
+    add_action('wp_footer', 'jzt_test_cabecera');
+}
