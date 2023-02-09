@@ -61,7 +61,7 @@ if( ! function_exists('jzt_test_cabecera') ) {
 if( ! function_exists('jzt_test_new_text') ) {
     function jzt_test_new_text() {
         echo '<h1>This is a head TEXT!</h1>';
-        echo '<span>La la la la!!!</span>';
+        echo '<span>Esto debería cambiar!!!</span>';
     }
     add_action('wp_footer', 'jzt_test_new_text');
 }
